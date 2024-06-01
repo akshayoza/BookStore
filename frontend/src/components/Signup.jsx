@@ -51,7 +51,7 @@ function Signup() {
     return (
         <>
             <div className='flex h-screen items-center justify-center'>
-                <div className="w-[600px]">
+                <div className="w-[400px]">
                     <div className="modal-box">
                         <form onSubmit={handleSubmit(onSubmit)}>
                             {/* Close button */}
@@ -97,9 +97,9 @@ function Signup() {
 
                             {/* Submit button and login link */}
                             <div className='flex justify-around mt-4'>
-                                <button type="submit" className='bg-pink-500 text-white rounded-md px-3 py-1 hover:bg-pink-700 duration-200'>SignUp</button>
+                                <button type="submit" className='bg-pink-500 text-white rounded-md px-5 py-2 hover:bg-pink-700 duration-200'>SignUp</button>
 
-                                <p className='text-xl'>Have Account?{" "}
+                                <p className='text-xl ml-4'>Have Account?{" "}
                                     {/* <button type="button" className='underline text-blue-500 cursor-pointer' onClick={() => document.getElementById("my_modal_3").showModal()}>Login</button>{" "} */}
                                     <Link to='/Loginnew' className='underline text-blue-500 cursor-pointer'>Login</Link>
                                 </p>

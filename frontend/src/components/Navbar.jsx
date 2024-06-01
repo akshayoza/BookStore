@@ -48,7 +48,7 @@ export default function Navbar() {
                 <a href="/Contect">Contect</a>
             </li>
             <li>
-                <a href="">About</a>
+                <a href="/Admin">Admin</a>
             </li>
 
         </>
@@ -66,7 +66,7 @@ export default function Navbar() {
                                 {navItems}
                             </ul>
                         </div>
-                        <a className="text-2xl font-bold cursor-pointer">book store</a>
+                        <a className="text-2xl font-bold cursor-pointer">Online book store</a>
                     </div>
                     <div className="nevbar-end space-x-3">
                         <div className="navbar-center hidden lg:flex">
