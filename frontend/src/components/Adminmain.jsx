@@ -33,7 +33,7 @@ function Adminnew() {
 
                 setTimeout(() => {
                     localStorage.setItem("Admin", JSON.stringify(res.data.user));
-                    nevigate('/work');
+                    nevigate('work');
                     window.location.reload();
                 }, 2000);
 
